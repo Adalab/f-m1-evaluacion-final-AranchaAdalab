@@ -1,32 +1,24 @@
 .page__header {
-    width: 100vw;
-    align-items: center;
+    height: 100vh;
+    background-image: url(../images/cover.jpg);
 }
 
-.header{
-    width: 320px;
-    height: 568px;
-    overflow: hidden;
+.page__header--text {
     display: flex;
+    align-items: center;
     justify-content: center;
-    z-index: 0;
-}
 
-.skyscraper {
-    transform: translate(20px);
 }
-
 .ico-menu{
     display: inline;
     z-index: 1;
     background: blue;
-    position: absolute;
-    top: 40px;
+    position: fixed;
+    top: 0px;
 }
 
 h1 {
     color: white;
-    text-align: center;
     z-index: 1;
     position: absolute;
     top: 250px;
@@ -34,15 +26,25 @@ h1 {
 
 h4 {
     color: white;
-    text-align: center;
     z-index: 1;
     position: absolute;
     top: 300px;
 }
 
+.circle {
+    background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 400px;
+  z-index: 0;
+}
 .scroll-down {
-    display:inline;
+    position: relative;
     z-index: 1;
-    position: absolute;
-    top: 300px;
 }

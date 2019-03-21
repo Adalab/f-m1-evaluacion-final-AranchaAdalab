@@ -5,13 +5,17 @@
 body {
     margin: 0;
     background: $color-white;
+    align-items: center;
 }
-
+.page__main--white {
+    padding: 30px 15px;
+}
 .reasons{
      display: grid;
      grid-template-columns: 1fr;
      grid-template-rows: 1fr 1fr 1fr 1fr;
-     background-color: aqua;
+     background-color: #8ccbea;
+     padding: 30px 70px;
 }
 
 .reasons__title {
@@ -20,10 +24,10 @@ body {
     align-items: center;
 }
 
-p {
+.paragraph--grid {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
- 
+
