@@ -1,5 +1,6 @@
 .page__header {
     width: 100vw;
+    align-items: center;
 }
 
 .header{
@@ -20,8 +21,9 @@
     z-index: 1;
     background: blue;
     position: absolute;
-    top: 0;
+    top: 40px;
 }
+
 h1 {
     color: white;
     text-align: center;

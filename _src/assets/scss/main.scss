@@ -5,5 +5,25 @@
 body {
     margin: 0;
     background: $color-white;
-	height: 100vh;
 }
+
+.reasons{
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr;
+     background-color: aqua;
+}
+
+.reasons__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
