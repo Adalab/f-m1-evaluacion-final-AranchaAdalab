@@ -1,50 +1,65 @@
-.page__header {
-    height: 100vh;
-    background-image: url(../images/cover.jpg);
-}
-
-.page__header--text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 .ico-menu{
     display: inline;
-    z-index: 1;
-    background: blue;
+    background: $color-medium-blue;
+    padding: 10px;
     position: fixed;
     top: 0px;
 }
 
-h1 {
-    color: white;
-    z-index: 1;
-    position: absolute;
-    top: 250px;
+.page__header {
+    height: 100vh;
+    background-image: url(../images/cover.jpg);
+    position: relative;
+    background-position-x: center;
+    background-position-y: -50%;
+    background-size: cover;
 }
 
-h4 {
-    color: white;
-    z-index: 1;
+.page__header--text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    top: 300px;
+    bottom: 11%;
+
+}
+
+h1 {
+    color: $color-white;
+    font-family: 'Roboto Slab-bold', serif;
+    font-size: 44px;
+    text-transform: uppercase;
+    line-height: 1.31;
+    margin: 0;
+}
+
+.page__header--h4 {
+    color: $color-white;
+    font-family: 'Roboto-regular', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0 45px 0;
+}
+
+h4:first-letter {
+    text-transform: uppercase;
 }
 
 .circle {
-    background: white;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: absolute;
-  top: 400px;
-  z-index: 0;
-}
-.scroll-down {
+    background: $color-white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    z-index: 1;
 }
+
+.scroll-down {
+    position: absolute;
+    transform: translateY(3px);
+}
+
