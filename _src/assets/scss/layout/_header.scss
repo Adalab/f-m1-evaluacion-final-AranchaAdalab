@@ -1,5 +1,46 @@
-.header {
+.page__header {
+    width: 100vw;
+}
+
+.header{
     width: 320px;
     height: 568px;
-    background-image: url(/_src/assets/images/cover.jpg);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+.skyscraper {
+    transform: translate(20px);
+}
+
+.ico-menu{
+    display: inline;
+    z-index: 1;
+    background: blue;
+    position: absolute;
+    top: 0;
+}
+h1 {
+    color: white;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+}
+
+.scroll-down {
+    display:inline;
+    z-index: 1;
+    position: absolute;
+    top: 300px;
 }
