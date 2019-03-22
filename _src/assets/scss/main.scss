@@ -10,6 +10,14 @@ body {
 }
 .page__main--white {
     padding: 30px 15px;
+}
+
+.page__main--blue {
+    background-color: #eff9ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .page__main--h5 {
     font-family: 'Roboto-regular', sans-serif;
@@ -40,13 +48,11 @@ body {
     text-transform: capitalize;
 }
 
-}
 .reasons{
      display: grid;
      grid-template-columns: 1fr;
      grid-template-rows: 1fr 1fr 1fr 1fr;
      grid-gap: 45px 0;
-     background-color: #eff9ff;
      margin:0;
      padding: 0px 15px;
 }
@@ -112,10 +118,11 @@ body {
 .button__more--reasons {
     width: 124px;
     height: 45px;
+    margin: 60px 0 60px 0;
     border: 2px solid #f26002;
     background-color: #f26002;
     color: $color-white;
-    border-radius: 40%;
+    border-radius: 35%;
     text-transform: capitalize;
     font-family: 'Roboto-medium', sans-serif;
     font-size: 16px;
