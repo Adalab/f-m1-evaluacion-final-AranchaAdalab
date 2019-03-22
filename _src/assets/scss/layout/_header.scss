@@ -3,7 +3,8 @@
     background: $color-medium-blue;
     padding: 10px;
     position: fixed;
-    top: 0px;
+    top: 0;
+    left: 0;
 }
 
 .page__header {
@@ -11,8 +12,11 @@
     background-image: url(../images/cover.jpg);
     position: relative;
     background-position-x: center;
-    background-position-y: -50%;
+    background-position-y: center;
     background-size: cover;
+    justify-content: center;
+    display: flex;
+    text-align: center;
 }
 
 .page__header--text {
@@ -30,8 +34,13 @@ h1 {
     font-family: 'Roboto Slab-bold', serif;
     font-size: 44px;
     text-transform: uppercase;
-    line-height: 1.31;
+    line-height: 55px;
     margin: 0;
+
+    @media all and (min-width: 768px){
+        font-size: 80px;
+        line-height: 106px;
+    }
 }
 
 .page__header--h4 {
