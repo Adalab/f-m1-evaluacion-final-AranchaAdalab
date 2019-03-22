@@ -26,13 +26,19 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 16%;
+    bottom: 7%;
+    @media all and (min-width: 768px){
+        bottom: 5%;
+    }
+    @media all and (min-width: 1200px){
+        bottom: 2%;
+    }
 }
 
 h1 {
     color: $color-white;
     font-family: 'Roboto Slab-bold', serif;
-    font-size: 44px;
+    font-size: 42px;
     text-transform: uppercase;
     line-height: 55px;
     margin: 0;
@@ -40,6 +46,10 @@ h1 {
     @media all and (min-width: 768px){
         font-size: 80px;
         line-height: 106px;
+    }
+    @media all and (min-width: 1200px){
+        font-size: 100px;
+        line-height: 132px;
     }
 }
 
@@ -49,6 +59,13 @@ h1 {
     font-size: 16px;
     margin: 0;
     padding: 15px 0 45px 0;
+    @media all and (min-width: 768px){
+        font-size: 24px;
+        padding: 0 0 25px 0;
+    }
+    @media all and (min-width: 1200px){
+        padding: 0 0 15px 0;
+    }
 }
 
 h4:first-letter {

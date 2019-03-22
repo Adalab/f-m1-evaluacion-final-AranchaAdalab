@@ -26,6 +26,9 @@ body {
     text-transform: capitalize;
     margin: 0;
     padding-bottom: 10px;
+    @media all and (min-width: 1200px){
+        font-size: 16px;
+    }
 }
 
 .page__main--h3 {
@@ -35,6 +38,12 @@ body {
     text-transform: capitalize;
     margin: 0;
     line-height: 30px;
+    @media all and (min-width: 768px){
+        font-size: 26px;
+    }
+    @media all and (min-width: 1200px){
+        font-size: 32px;
+    }
 }
 
 .page__main--paragraph {
@@ -42,6 +51,9 @@ body {
     font-size: 18px;
     color: #4a4a4a;
     line-height: 30px;
+    @media all and (min-width: 768px){
+        font-size: 20px;
+    }
 }
 
 .page__main--paragraph:first-letter {
@@ -49,12 +61,17 @@ body {
 }
 
 .reasons{
-     display: grid;
-     grid-template-columns: 1fr;
-     grid-template-rows: 1fr 1fr 1fr 1fr;
-     grid-gap: 45px 0;
-     margin:0;
-     padding: 0px 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 45px 0;
+    margin:0;
+    padding: 0px 15px;
+    @media all and (min-width: 768px){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;  
+    }
 }
 
 .reasons__title {
@@ -67,6 +84,31 @@ body {
     text-transform: capitalize;
     margin: 0;
     line-height: 30px;
+    @media all and (min-width: 768px){
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;   
+    }
+}
+
+.reasons__1{
+    @media all and (min-width: 768px){
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;  
+    }
+}
+
+.reasons__2{
+    @media all and (min-width: 768px){
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;  
+    }
+}
+
+.reasons__3{
+    @media all and (min-width: 768px){
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;  
+    }
 }
 
 .reasons__subtitle {
@@ -107,6 +149,12 @@ body {
     font-family: 'Roboto-medium', sans-serif;
     font-size: 20px;
     transition: box-shaadow ease 2s, background-color ease 2s, font-weight ease 0.5s;
+    @media all and (min-width: 768px){
+        width: 91px;
+    }
+    @media all and (min-width: 1200px){
+        width: 160px;
+    }
 }
 
 .button__go:hover {
