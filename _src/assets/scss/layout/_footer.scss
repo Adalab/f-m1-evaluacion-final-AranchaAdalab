@@ -25,8 +25,6 @@ ul {
     color: $color-white;
     line-height: 18px;
     text-transform: uppercase;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
     @media all and (min-width: 768px){
         grid-column: 2 / 3;
         grid-row: 1 / 2;
@@ -41,8 +39,6 @@ ul {
     color: $color-white;
     line-height: 15px;
     text-transform: uppercase;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
     @media all and (min-width: 768px){
         grid-column: 3 / 4;
         grid-row: 1 / 2;
@@ -83,20 +79,21 @@ ul {
 }
 
 .page__footer--grid {
-        display:grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
     @media all and (min-width:768px){
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-        grid-gap: 100px;
+        grid-gap: 140px;
         text-align: left;
+        padding-bottom: 30px;
+    }
+    @media all and (min-width:1200px){
+        grid-gap: 80px;
     }
 }
 
 .page__footer--heart {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    padding-bottom: 40px;
     @media all and (min-width: 768px){
         grid-column: 1 / 2;
         grid-row: 1 / 2;
