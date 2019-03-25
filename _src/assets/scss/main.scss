@@ -1,6 +1,6 @@
 @import 'core/variables';
 @import 'layout/header';
-@import 'core/settings';
+// @import 'core/settings';
 @import 'layout/footer';
 
 body {
@@ -201,4 +201,33 @@ body {
     height: 50px;
     border: 2px solid #4d4b4b;
     background-color: #daa381;
+}
+
+.special {
+    display: none;
+    @media all and (min-width: 768px){
+    display: inline-block;
+    background: $color-orange;
+    color: $color-white;
+    }
+}
+
+.special__subtitle {
+    @media all and (min-width: 1200px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.special__h3 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.special__h5 {
+    margin: 0;
+}
+
+.special__p {
+    margin: 0;
 }
