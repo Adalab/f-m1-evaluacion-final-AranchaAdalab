@@ -20,6 +20,7 @@
 }
 
 .page__header--text {
+    width: 280px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -37,7 +38,8 @@
 
 h1 {
     color: $color-white;
-    font-family: 'Roboto Slab-bold', serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
     font-size: 42px;
     text-transform: uppercase;
     line-height: 55px;
@@ -53,9 +55,10 @@ h1 {
     }
 }
 
-.page__header--h4 {
+.page__header--h2 {
     color: $color-white;
-    font-family: 'Roboto-regular', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     margin: 0;
     padding: 15px 0 45px 0;
@@ -68,7 +71,7 @@ h1 {
     }
 }
 
-h4:first-letter {
+.page__header--h2:first-letter {
     text-transform: uppercase;
 }
 
