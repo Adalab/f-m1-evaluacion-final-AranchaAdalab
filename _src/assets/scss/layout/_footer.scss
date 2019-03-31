@@ -26,7 +26,8 @@ li {
 }
 
 .page__footer--sections {
-    font-family: 'Roboto-regular', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     color: $color-white;
     line-height: 18px;
@@ -40,7 +41,8 @@ li {
 .page__footer--social--media {
     padding-top: 30px;
     padding-bottom: 30px;
-    font-family: 'Roboto-regular', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     color: $color-white;
     line-height: 15px;
@@ -53,14 +55,16 @@ li {
 }
 
 .copy {
-    font-family: 'Roboto-regular', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     color: $color-white;
     margin: 15px 0;
 }
 
 .components {
-    font-family: 'Roboto-regular', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     color: $color-white;
     margin: 0;
